@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# AWS credentials
+.aws/
+*.pem
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
